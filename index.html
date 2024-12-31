@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A website for selling and buying services" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arabmich|Homepage</title>
+    <link rel="stylesheet" href="CSS/preset.css">
+    <link rel="stylesheet" href="CSS/structure.css">
+    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="/CSS/style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="menu">
+        <nav>
+            <img src="IMAGES/logo.jpg" alt="LOGO" id="LOGO">
+            <ul id="menuList">
+                <li><div class="dropdown"><img src="IMAGES/352479_language_icon.svg" alt="LANUGAGE" >
+                    <div class="dropdown-content">
+                        <a href="#">English</a>
+                        <a href="#">عربي</a>
+                    </div>
+                </div></li>
+                <li><button class="buttonP">Post</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="viewPort">
+        <div id="homePage">
+            <div class="pageExplorer">
+                <p>ARABMICH > <a href="#">Homepage</a></p>
+            </div>
+            <div class="firstArticle">
+                <h3>Bringing Community Together.</h3>
+                <p>Discover, Connect, and Trade: Jobs, Deals, and More at Your Fingertips!                </p>
+                <form>
+                    <div id="searchQuery">
+                        <input type="text" placeholder="ie. cars" id="searchInput">
+                        <button id="searchButton"><img src="IMAGES/211817_search_strong_icon.svg" alt="search"></button>
+                    </div>    
+                        <div class=".selectGroup">
+                           <input type="button" value="Jobs" class="primary-button">
+                           <input type="button" value="For Sale" class="primary-button">
+                           <input type="button" value="Vehicles" class="primary-button">
+                           <input type="button" value="Classes" class="primary-button">
+                           <input type="button" value="Real Estate" class="primary-button">
+                           <input type="button" value="Services" class="primary-button">
+                        </div>
+                </form>
+            </div>
+            <div class="nav">
+                <select name="selector" id="selector">
+                    <option value="newest" selected>Newest</option>
+                    <option value="oldest">Oldest</option>
+                    <option value="mostViewed" >Most Viewed</option>
+                    <option value="mostViewed">Top Rated</option>
+                </select>
+            </div>
+            <div class="prem">
+                <i class="premL">Premium Listing<span class="question">?</span></i>
+                <div id="premList">
+                    <div class="infoSnip">
+                        <img src="IMAGES/AboutUs.jpg" alt="image" class="infoIMG">
+                        <div class="tagsCont">
+                            <span class="tags">Classes</span>
+                            <span class="tags">Services</span>
+                        </div>
+                        <p class="titleSnip">Arabic Beginner Courses</p>
+                            <p class="locationSnip">Remote</p>
+                            <span class="priceSnip">Contact Seller</span>
+                            <span class="dateSnip">11/08/2020</span>
+                    </div>
+                    <div class="infoSnip">
+                        <img src="IMAGES/AboutUs.jpg" alt="image" class="infoIMG">
+                        <div class="tagsCont">
+                            <span class="tags">Classes</span>
+                            <span class="tags">Services</span>
+                        </div>
+                        <p class="titleSnip">Arabic Beginner Courses</p>
+                            <p class="locationSnip">Detroit, MI</p>
+                            <span class="priceSnip">Contact Seller</span>
+                            <span class="dateSnip">11/08/2020</span>
+                    </div>
+                    <div class="infoSnip">
+                        <img src="IMAGES/AboutUs.jpg" alt="image" class="infoIMG">
+                        <div class="tagsCont">
+                            <span class="tags">Vehicles</span>
+                            <span class="tags">For Sale</span>
+                        </div>
+                        <p class="titleSnip">Electric Ford Truck</p>
+                            <p class="locationSnip">Dearborn, MI</p>
+                            <span class="priceSnip">$45,000</span>
+                            <span class="dateSnip">11/08/2020</span>
+                    </div>
+                    <div class="infoSnip">
+                        <img src="IMAGES/AboutUs.jpg" alt="image" class="infoIMG">
+                        <div class="tagsCont">
+                            <span class="tags">Classes</span>
+                            <span class="tags">Services</span>
+                        </div>
+                        <p class="titleSnip">Spanish Beginner Courses</p>
+                            <p class="locationSnip">Dearborn, MI</p>
+                            <span class="priceSnip">Contact Seller</span>
+                            <span class="dateSnip">11/08/2020</span>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+               
+            </div>
+            <div class="listings">
+
+            </div>
+    </div>
+      <script src="JAVASCRIPT/script.js">
+      
+      </script>
+</body>
+</html>
